@@ -1,0 +1,301 @@
+body{
+    margin:0;
+}
+
+ h1{
+    font-size:80px;
+    margin:0 0 30px;
+}
+
+p, .idea-list ol{
+    font-size:1.07em;
+    margin:0;
+    text-align:left;
+    color:black;
+}
+
+.idea-list ol{
+    max-width:80%;
+}
+
+.homepage{
+    background-image:url("../images/mainpage_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%; 
+}
+
+/* .proposed{
+   
+}
+.parta{
+   
+}
+.partb{
+   
+} */
+
+#fullpage {
+    text-align:center;
+}
+
+nav{
+    background: rgba(0, 40, 40, .98);
+	height: 64px;
+	padding: 0 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 12;
+    box-sizing: border-box;
+}
+
+nav ul{
+    float:right;
+    list-style-type: none;
+    display: flex;
+    margin-top:17px;
+    color:white;
+};
+
+#carouselExampleIndicators{
+    max-width:500px;
+    max-height:500px;
+}
+/* nav li{
+    padding:10px;
+    
+} */
+
+.dropdown{
+	display: inline-block;
+}
+
+.dropdown-content {
+  display: block; 
+  
+}
+
+/*when hover the dropdown dropdown content shown */
+.dropbtn:hover .dropdown-content 
+{
+  display: block;
+}
+
+/*when hover the dropdown button colover change */
+.dropbtn:hover 
+{
+  color: green;
+}
+
+
+
+/*The content structure */
+.row {
+    display:inline-block;
+    max-width: 85%;
+    margin:10px 0px;
+}
+
+.newrow {
+    display:inline-block;
+    max-width: 97%;
+    margin-top:40px;
+}
+
+.firstColumn {
+    float:left;
+    width:50%;
+    padding:0;
+    }
+
+.secondColumn {
+    float:right;
+    width:50%;
+    padding:0;
+}
+
+/*prargraph heading style*/
+.para_heading{
+    text-align:left;
+    color:rgb(17, 92, 124);
+    font-size:1.4em;
+    font-weight: bold;
+}
+.article_title{
+    text-align:center;
+    font-weight: bold;
+}
+
+
+/* vertical dot navigation customize*/
+#fp-nav .fp-right {
+    right:3px;
+}
+
+#fp-nav  ul li a span, .fp-slideNav ul li a span {
+    background:green;
+    
+}
+#fp-nav ul li .fp-tooltip{
+    color:green;
+    font-weight:bold;
+}
+
+#fp-nav  ul li .fp-right{
+    color:green;
+    font-size:1.2em;
+}
+
+
+/* change the slides arrow position*/
+.fp-controlArrow.fp-prev {
+    margin-left:50px;
+    cursor: pointer;
+}
+
+.fp-controlArrow.fp-next {
+    margin-right:50px;
+    cursor: pointer;
+}
+
+/* change the slides arrow position*/
+.wrapper{
+   
+    width:1400px;
+    margin:auto;
+    padding:auto;
+    height: 80%;
+    
+    /* background-color:rgba(0, 40, 44, 0.8); */
+}
+
+
+@media screen and (min-width: 1101px) {
+    div.wrapper {
+      font-size: 1em;
+    }
+  }
+@media screen and (max-width: 1100px) {
+div.wrapper {
+    font-size: 0.8em;
+    width:100%;
+}
+.primary-navigation {
+    font-size:0.8em;
+}
+}
+@media screen and (max-width: 980px) {
+    div.wrapper {
+        font-size: 0.7em;
+        width:100%;
+    }
+    .primary-navigation {
+        font-size:0.7em;
+    }
+}
+@media screen and (max-width: 700px) {
+    div.wrapper {
+        font-size: 0.6em;
+        width:100%;
+    }
+    .primary-navigation {
+        font-size:0.6em;
+    }
+}
+
+/*carousal*/
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    background-color:black;
+    size:3em;
+    padding:1.2em;
+    border-radius: 10%;
+  
+   
+}
+.carousel-control-prev-icon{
+    margin-left:300px;
+}
+.carousel-control-next-icon{
+    margin-right:300px;
+}
+
+.carousel-indicators li{
+    background-color:black;
+    width: 10px;
+    height: 10px;
+    padding:5px;
+    margin: 5px;
+    border-radius: 100%;
+   
+}
+
+.carousel-caption {
+  
+    width:100%;
+    height:100%;
+    left:0 !important;
+    color:black;
+}
+.carousel-caption h3{
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+    
+}
+
+#carouselExampleIndicators{
+    /* width:50%; */
+}
+.slideImage{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*The homepage greeting style*/
+.greeting{
+    font-family: 'Marck Script', cursive;
+    font-size:4em;
+    color:white;
+}
+
+
+/*The homepage greeting style*/
+.persona-detail{
+    width:90%;
+    margin-right:auto;/*in the center*/
+    margin-left:auto;
+    
+}
+.persona-detail p{
+    color:white;
+}
+
+.persona-detail a{
+    color:white;
+}
+
+/*proposal page*/
+
+/* modal style*/
+.modal-dialog{
+    margin-top:20px;
+    
+} 
+.images:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.close{
+    font-size:2.8em;
+}
+
+#caption{
+    text-align:center;
+    font-weight:bold;
+    font-size:1.4em;
+}
